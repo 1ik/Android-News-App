@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/values-sw480dp-land/layout.xml -->
+    <eat-comment />
+
+    <string name="device_size">medium-land</string>
+
+</resources>

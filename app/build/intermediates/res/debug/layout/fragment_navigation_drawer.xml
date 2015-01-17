@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_list"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:divider="@color/Platinum"
+    android:dividerHeight="1dp"
+    android:background="#fff"
+    android:choiceMode="singleChoice"
+    android:layout_gravity="right"
+    android:footerDividersEnabled="false" />
+<!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/fragment_navigation_drawer.xml -->

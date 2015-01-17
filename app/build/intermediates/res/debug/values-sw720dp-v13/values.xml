@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/values-sw720dp/layout.xml -->
+    <eat-comment />
+
+    <bool name="nexus7">true</bool>
+    <bool name="tablet">true</bool>
+    <bool name="ten_inch_land">false</bool>
+    <bool name="ten_inch_port">true</bool>
+    <!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/values-sw720dp/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="news_item_height">160dp</dimen>
+    <!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/values-sw720dp/layout.xml -->
+    <eat-comment />
+
+    <string name="device_size">xlarge-port</string>
+
+</resources>

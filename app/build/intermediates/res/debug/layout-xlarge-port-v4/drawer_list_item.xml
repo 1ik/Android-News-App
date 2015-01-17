@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="15dp"
+    android:layout_height="100dp"
+    android:background="#f1f1f1" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:layout_height="35dp"
+        android:alpha=".9"
+        android:contentDescription="@string/drawer_list_icon" />
+
+
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:alpha=".9"
+        android:background="#f1f1f1"
+        android:textColor="#494244"
+        android:textSize="35dp"
+        />
+
+
+    <TextView
+        android:id="@+id/unread_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:minHeight="48dp"
+        android:textColor="#000"
+        android:text="(3)"
+        android:textSize="@dimen/drawer_item_text_size"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/title"
+        android:layout_toEndOf="@+id/icon" />
+
+</LinearLayout><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout-xlarge-port/drawer_list_item.xml -->

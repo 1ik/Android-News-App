@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/card_background_white"
+    android:orientation="horizontal"
+    tools:ignore="overdraw"
+    tools:context=".MyActivity">
+
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/newsIcon"
+        android:src="@drawable/ic_launcher" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="4dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        tools:context=".MyActivity">
+
+        <TextView
+            android:id="@+id/newsTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a text"
+            android:textSize="16dp"
+            android:layout_marginLeft="6dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="4dp"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/news_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26 September"
+                android:textSize="10dp"
+                android:layout_marginLeft="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingTop="0dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="4dp"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/iv_fv_share"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_fb" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/iv_fv_share"
+                android:id="@+id/iv_twitter_share"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_twiiter" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout-land/model_main_news_list_all_item_format.xml -->

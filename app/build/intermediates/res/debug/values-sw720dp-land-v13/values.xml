@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/values-sw720dp-land/layout.xml -->
+    <eat-comment />
+
+    <bool name="nexus7">true</bool>
+    <bool name="tablet">true</bool>
+    <bool name="ten_inch_land">true</bool>
+    <bool name="ten_inch_port">false</bool>
+
+    <string name="device_size">xlarge-land</string>
+
+</resources>

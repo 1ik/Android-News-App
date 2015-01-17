@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background_white" >
+
+    <ImageView
+        android:id="@+id/newsIcon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/ic_communities"
+        android:background="#fff" />
+    
+    <TextView
+        android:id="@+id/newsTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+    	android:paddingRight="5dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+     <TextView
+        android:id="@+id/summery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+    	android:paddingRight="5dp"
+    	android:textSize="11dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="0dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="4dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/news_time"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/timeicon"
+            android:layout_marginLeft="3dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_fv_share"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_fb" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/iv_fv_share"
+            android:id="@+id/iv_twitter_share"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_twiiter" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/model_main_news_list_first_item.xml -->

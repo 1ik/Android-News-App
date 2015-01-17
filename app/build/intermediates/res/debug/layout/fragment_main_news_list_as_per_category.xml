@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="#FFF"
+        android:layout_height="match_parent"
+        tools:context=".MainNewsListCategory">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_list_progressBar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp" />
+
+    <ListView
+        android:id="@+id/newsList"
+        android:layout_below="@id/news_list_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/news_list_margin"
+        android:choiceMode="singleChoice"
+        android:divider="#E5E4E2"
+        android:dividerHeight="@dimen/news_list_dividerHeight" />
+
+
+
+</RelativeLayout>
+
+
+<!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/fragment_main_news_list_as_per_category.xml -->

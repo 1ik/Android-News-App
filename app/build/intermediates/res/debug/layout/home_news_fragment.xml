@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_news_list_progressBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp" />
+
+    <com.astuetz.PagerSlidingTabStrip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/home_tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/home_news_pager"
+        android:layout_width="match_parent"
+        android:layout_below="@id/home_tabs"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/home_news_fragment.xml -->

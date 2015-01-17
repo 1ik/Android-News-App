@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+
+    <ImageView
+        android:id="@+id/cached_news_icon"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/ic_communities"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/newsTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a title"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <WebView
+        android:id="@+id/summery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="8dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/timeicon"
+            android:src="@drawable/clock97" />
+
+        <TextView
+            android:id="@+id/news_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26 September"
+            android:textSize="10dp"
+            android:layout_marginLeft="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/author_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 September"
+        android:textSize="10dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+    <TextView
+        android:id="@+id/source_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 September"
+        android:textSize="10dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/news_detail_cached_view.xml -->

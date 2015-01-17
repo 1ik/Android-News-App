@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/featuredLayout"
+    android:background="#EEEEEE"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--first section-->
+    <RelativeLayout
+        android:onClick="featuredNewsClicked"
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/featured_first_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/ic_launcher"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/featured_first_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="#80000000"
+            android:textColor="#fff"
+            android:layout_alignBottom="@+id/featured_first_image"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+    <!-- first section-->
+
+
+    <!--second and third section -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:onClick="featuredNewsClicked"
+            android:id="@+id/second_layout"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:background="@color/White"
+            android:minHeight="240dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/featured_second_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/featured_second_title"
+                android:layout_below="@+id/featured_second_image"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+         </RelativeLayout>
+
+
+        <RelativeLayout
+            android:onClick="featuredNewsClicked"
+            android:id="@+id/third_layout"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:background="@color/White"
+            android:minHeight="240dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/featured_third_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/featured_third_title"
+                android:layout_below="@+id/featured_third_image"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--second and third section -->
+
+
+    <!--forth section-->
+    <LinearLayout
+        android:onClick="featuredNewsClicked"
+        android:id="@+id/forth_layout"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/featured_forth_title"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/featured_forth_image"
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:minHeight="90dp"
+            android:maxHeight="90dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+    <!--forth section-->
+
+
+
+    <!--fifth section-->
+    <LinearLayout
+        android:onClick="featuredNewsClicked"
+        android:id="@+id/fifth_layout"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/featured_fifth_title"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/featured_fifth_image"
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:minHeight="90dp"
+            android:maxHeight="90dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+    <!--fifth section-->
+
+
+    <!--sixth section-->
+    <LinearLayout
+        android:onClick="featuredNewsClicked"
+        android:id="@+id/sixth_layout"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/featured_sixth_title"
+            android:text="loading.."
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/featured_sixth_image"
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:maxHeight="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+    <!--sixth section-->
+
+
+</LinearLayout>
+</ScrollView><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/fragment_featured_news_view.xml -->

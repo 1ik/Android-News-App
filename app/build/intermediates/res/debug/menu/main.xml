@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/seeSavedNews"
+        android:title="@string/save"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_bookmark" />
+    
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="refresh"/>
+
+    <item
+        android:id="@+id/more_news"
+        android:icon="@drawable/ic_more_news"
+        android:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="more"/>
+
+    <!--
+    <item
+        android:id="@+id/action_overflow"
+        android:showAsAction="always"
+        android:orderInCategory="4"
+        android:title="@string/abs__action_menu_overflow_description"
+        android:icon="@drawable/ic_action_overflow" >
+
+
+        <menu>
+            <item
+                android:id="@+id/about_bn"
+                android:showAsAction="always"
+                android:title="About Us"  />
+            <item
+                android:id="@+id/app_settings"
+                android:showAsAction="always"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about_developer"
+                android:showAsAction="always"
+                android:title="Developer" />
+        </menu>
+
+    </item>
+    -->
+</menu>
+<!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/menu/main.xml -->

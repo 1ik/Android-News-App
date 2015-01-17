@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Download Feature"
+            android:id="@+id/image_feautre" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download image from server"
+            android:id="@+id/textView2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/image_feautre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_checkBox"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_below="@+id/image_feautre"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_marginLeft="72dp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout><!-- From: file:/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/app/src/main/res/layout/settings.xml -->
