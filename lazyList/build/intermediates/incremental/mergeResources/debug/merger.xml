@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res" >
+            <file
+                name="icon"
+                path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res/drawable/icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stub"
+                path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res/drawable/stub.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="item"
+                path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res/layout/item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >LazyList
+                </string>
+                <string name="hello" >Hello World, MainActivity!
+                </string>
+            </file>
+        </source>
+        <source path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/build/generated/res/rs/debug" />
+        <source path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/anik/Documents/Projects/android/Banglanews24/MyApplication/lazyList/src/debug/res" />
+    </dataSet>
+
+</merger>
